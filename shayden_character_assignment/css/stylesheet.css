@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro&display=swap');
+/*imported fonts*/
+
+
+header{
+	background-color: #1EA36E;
+	text-align: center;
+	color:white;
+	padding: 10px;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+}
+	nav ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: #FFA4DC;
+		}
+
+	nav li {
+		float:left;
+		}
+
+	nav li a {
+		display: block;
+		color: #FFEFF9;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition-duration: 0.5s
+		}
+	nav li a:hover {
+		background-color: #FF6DC8;
+		color:white;
+		text-decoration: none;
+		}
+
+section{
+	background-color: #4CAD9A;
+	color:white;
+	margin:0px auto;
+	padding: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	overflow:hidden;
+	}
+section img{
+	float:left;
+	margin-right:10px;
+	padding: 20px;
+}
+section li{
+	direction: inherit;
+}
+/*div allows the next bit of content in the section to drop below the floating images*/
+section div{
+	/*top space between subsections*/
+	margin-top: 50px;
+	/*makes it the height of all content*/
+	overflow: hidden;
+	/*this pushes it below the floating stuff*/
+	clear:both;
+	
+}
+resource_section{
+	
+}
+footer{
+	background-color: #AE7FC9;
+	color:white;
+	margin:0px auto;
+	padding:50px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+hr {
+	/*margin is top spacing, height is thickness of that line, border removes that weird spacing, background is colour, clear pushes it under floating things*/
+	margin-top: 50px; 
+	height: 20px; 
+	border: none; 
+	background: #FFA4DC; 
+	clear:both;
+}
+
+/*.CLASSES HERE*//*i shall not give up on makeing the links into neat little buttons!!!!!*/
+.sticky{
+		position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+.alternate{
+	background-color: #166C56;
+}
+
+.fakebutton {
+	
+	background-color: #FFA4DC;
+	color:#FFEFF9;
+	text-decoration: none;
+	padding: 15px 25px;
+	font-size: 16px;
+	cursor:pointer;
+	border:thin solid #e7e7e7;
+	transition-duration: 0.5s;
+}
+.fakebutton:hover {
+	background-color: #FF6DC8;
+	color:#FFEFF9;
+	transition-duration: 0.5s;
+}
+.fancy{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+}
+
+
+/*gallery style*/
+.img gallery{
+	max-width: 400px;
+	height: auto;
+	}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+  .column {
+	flex: 50%;
+	max-width: 50%;
+}
+
+.column img {
+	margin-left:auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+
