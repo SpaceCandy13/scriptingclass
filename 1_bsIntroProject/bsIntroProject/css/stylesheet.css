@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+#masthead{
+/*	background-color: #00bc9b;*/
+	background-image:url("../images/mountains.jpg");
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+#about{
+/*	background: #00bc9b;*/
+	background-image: url("../images/Abstract-blue_0.jpg");
+	background-position: center;
+	background-size: cover;
+	color:white;
+}
+/*crt+/ comments whole sectons*/
+
+#footer{
+	background-color: #414141;
+	color:white;
+}
