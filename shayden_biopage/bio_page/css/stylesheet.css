@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #F4F5E9;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-family: "Nunito", sans-serif;
+}
+
+#home{
+	
+	color: #ffaec9;
+}
+
+#gallery{
+	background-color: #FFB5CD;
+	background-size: cover;
+	color: white;
+}
+
+#background{
+	background-color: #FFC9DB;
+	background-size: cover;
+	color: white;
+}
+
+#comic{
+	background-color: #FFD8E5;
+	background-size: cover;
+	color: white;
+}
+
+#about{
+	color: #FF8CB2;
+}
+
+footer{
+	background-color: #ffaec9;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#FF8CB2;
+	text-decoration:none;
+	
+}
+
+/*classes*/
+.logo{
+	max-height: 35px;
+	max-width: 35px;
+}
+
+.bg-pink{
+	background-color: #ffaec9;
+}
+
+.bg-medpink{
+	background-color: #ffaec9;
+}
+
+.fred{
+	font-size:80px;
+	font-family: "Fredoka One"
+}
+
+.fred2{
+	font-family: "Fredoka One"
+}
+
+.ama{
+	font-size: 70px;
+	font-family: "Amatic SC";
+	text-align: center;
+}
+
+.ama2{
+	font-size: 50px;
+	font-family: "Amatic SC";
+	text-align: center;
+}
+
+.ama3{
+	font-size: 35px;
+	font-family: "Amatic SC";
+	text-align: center;
+}
+

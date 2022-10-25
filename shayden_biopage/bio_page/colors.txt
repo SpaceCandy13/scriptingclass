@@ -1,0 +1,8 @@
+
+Pinks:
+bright #F791C4
+Dark ffaec9
+Medium ffd9e6
+Light ffecf2
+
+Cream: f4f5e9
