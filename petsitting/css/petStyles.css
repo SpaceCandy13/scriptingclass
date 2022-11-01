@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*if you want a different look in each header on the different pages, then use an ID rather than just header*/
+#homeMasthead{
+/*		background-color:#102E45;*/
+		background-image: url("../images/doge_sit_small.jpg");
+		background-size: cover;
+		background-position:center;	
+}
+#servicesMasthead{
+
+		background-image: url("../images/doge_walk_small.jpg");
+		background-size: cover;
+		background-position:center;	
+}
+
+#contactMasthead{
+
+		background-image: url("../images/doge_contact_small.jpg");
+		background-size: cover;
+		background-position:center;	
+}
+	/*focus on mobile first- smaller fit and then format for larger*/
+.display-1{
+	font-size:32pt;
+}
+
+h2{
+	color:#D1B641;
+}
+
+.bg-dark{
+	background-color: #D1B641 !important;
+}
+/*class to define the height of any element it is added to*/
+.height80{
+	height:80vh;
+}
+
+footer{
+	background-color: #01253D;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color:#BDC6D0;
+}
+
+a:link, a:visited{
+	color: #BDC6D0;
+}
+a:hover{
+	color: #8DA6C3;
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+/*REM is Root Em: relative size of the root element*/
+@media only screen and (min-width: 576px) {
+	.display-1{
+		font-size:60pt;
+	}
+
+}/*this closes the small media quiery*/
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#homeMasthead{
+		background-image: url("../images/doge_sit.jpg");}
+	.display-1{
+		font-size:80pt;}
+}/*this closes the medium media quiery*/
+
+	
+	
+	
+	
