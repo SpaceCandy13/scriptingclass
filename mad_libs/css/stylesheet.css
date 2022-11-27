@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+#cap{
+	background-color: rgba(42,38,34,1.00);
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+header{
+	background-color: rgba(31,31,31,0.60);
+	color: white;
+	margin: 5% 15% 5% 15%;
+	padding: 10px;
+	padding-top: 60px;
+	border-radius: 25px;
+	font-family: 'Leckerli One', cursive;
+	font-size: 25px;
+	}
+
+h1{
+	font-family: 'Knewave', cursive;
+	}
+
+#subhead{
+	
+	padding: 5%;
+	font-size: 20px;
+}
+
+
+body{
+	background-image: url("../images/warm.jpg");
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	font-family: 'Noto Serif Oriya', serif;
+	}
+
+footer{
+	background-color: rgba(42,38,34,1.00);
+	padding: 30px;
+}
+
+/**********************input styling************************************/
+
+input[type=text]{
+	background-color: rgba(155,93,57,0.70);
+	border-color: rgba(31,31,31,0.20);
+}
+
+input[type=text]:focus{
+	background-color: rgba(155,93,57,0.70);
+	border-color: rgba(31,31,31,0.20);
+	outline: orange;
+}
+
+/**********************RADIO BUTTON FANDANGLING************************************/
+[color-scheme="dark"] .accented {
+  accent-color: rgba(212,109,49,1.00);
+}
+
+input {
+  --size: 1.30rem;
+  block-size: var(--size);
+  inline-size: var(--size);
+}
+
+label {
+  display: flex;
+  gap: 1rem;
+}
+
+[color-scheme="dark"] {
+  color-scheme: dark;
+}
+
+/**********************************************************************************/
+
+.input{
+	background-color: rgba(31,31,31,0.60);
+	color: white;
+	margin: 5% 15% 5% 15%;
+	padding: 10px;
+	border-radius: 25px;
+	}
+
+
+.btn-spooky{
+	background-color: rgba(42,38,34,1.00);
+	border-radius: 15px;
+	padding: 15px;
+	margin-bottom: 100px;
+	font-family: 'Knewave', cursive;
+	font-size:25px;
+	color: white;
+	}
+
+.output{
+	background-color: rgba(42,38,34,1.00);
+	padding: 30px;
+	color: white;
+}
+
+/**********************************MODAL STYLING************************************************/
+
+/* The Modal (background) */
+.modal {
+/*  display: none;  Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: rgba(31,31,31,1.0);
+	border-radius: 25px;
+	color:rgba(227,227,227,1.00);
+	margin: 5% auto; /* 15% from the top and centered */
+	padding: 15%;
+	width: 80%; /* Could be more or less, depending on screen size */
+	animation-name: animatetop;
+    animation-duration: 0.4s;
+	text-align: center;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
