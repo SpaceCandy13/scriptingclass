@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	padding: 30px;
+	padding-top: 60px;
+	background-image: url("../images/brick.png");
+	background-size: cover;
+	background-color: #3F4B47;
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+}
+
+body{
+	background-image: url("../images/shop.png");
+	background-size:cover;
+	background-position: center;
+	background-color: #3D735F;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	
+}
+
+#game{
+	
+	background-image:linear-gradient(to bottom, rgba(15,1,1,0.80), rgba(15,1,1,.90)), url('../images/woodtexture.jpg');
+	border-color: rgba(15,1,1,1);
+	border-style: groove;
+	border-width: thick;
+	border-radius: 5%; 
+}
+
+#title{
+	font-family: 'Satisfy', cursive;
+	color: white;
+	font-size: 80px;
+	padding: 50px;
+
+}
+
+#selections{
+	font-family: 'Satisfy', cursive;
+	color: white;
+	font-size: 40px;
+
+}
+
+#outputfield{
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 40px;
+	background-color: #050303;
+	padding: 30px;
+	border-color: rgba(15,1,1,0.40);
+	border-style: inset;
+	border-width: thick;
+	border-radius: 5%;
+}
+
+#potionMaker{
+	position: relative;
+	height: 650px;
+}
+
+#round, #color, #core, #part, #roundTop , #tag , #pic{
+	position: absolute;
+}
+
+h1{
+	font-size: 100px;
+}
+
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 50px;
+}
+
+h3{
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+h4{
+	font-size: 20px;
+	
+}
+
+hr{
+	
+ 	border-top: 5px dotted #261A13;
+}
+
+b{
+	font-size:22px ;
+}
+
+#pName{
+	font-size: 50px;
+}
+
+#pNameInput{
+	font-size: 50px;
+	border-color: rgba(15,1,1,0.40);
+	border-style: inset;
+	border-width: thick;
+	border-radius: 5%;
+	background-color: rgba(0,166,149,0.40);
+	font-family: 'Libre Baskerville', serif;
+	color: white;
+}
+
+#intro{
+	background-color: rgba(15,1,1,0.70);
+	padding: 20px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+#reflect{
+	background-color: rgba(15,1,1,0.90);
+	padding: 30PX;
+		margin-top: 50px;
+	font-size: 18px;
+	color: white;
+}
+
+.bg-navbrown{
+	background-color: #050303;
+}
+
+
+
+.btn-wood{
+	background-color: rgba(0,166,149,1.00);
+	background-position: center;
+	border-radius: 15px;
+	width: 400px;
+	font-size:25px;
+	color: white;
+	}
+
+footer{
+background-image:linear-gradient(to bottom, rgba(15,1,1,0.80), rgba(15,1,1,.90)), url('../images/woodtexture.jpg');
+	background-size: cover;
+	background-color: #0F0101;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 200px;
+	font-size: 15px;
+}
+
+a {
+  color: rgba(0,166,149,1.00);
+}
